@@ -1,0 +1,499 @@
+/* Import google font. */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+/* All Elements set margin padding default. Default font-size. */
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 20px;
+    
+}
+/* Smooth scroll with scroll-behaviour. */
+html{
+    scroll-behavior: smooth;
+    background-color: #171717;
+}
+
+/* Default font specified. */
+body{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #171717;
+    
+}
+
+/* ---------------------------------*/
+
+/* USED FOR PRELOADER - TO HIDE CONTENT OF PAGE  */
+
+.makeDisplayNone{
+    display: none;
+}
+
+/* ---------------------------------*/
+
+/*  HEADER  */
+
+/* Header Container */
+header{
+    background-color: #171717;
+    color: white;
+}
+
+/* Header Links */
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Header Logo Button */
+header button {
+    background-color: #171717;
+    border: none;
+}
+
+/* Header Links */
+
+
+/* ---------------------------------*/
+
+/* MAIN */
+
+/* Main Backgroung image fixed. */
+main{
+    background-image: url(/images/mainWp.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: auto;
+    background-origin: padding-box;
+    
+}
+
+/* All sections have height as browser height.*/
+section{
+    min-height: 100vh;
+}
+
+
+/* Start the Journey Button */
+.goNextLink{
+    background-color: #DA0037;
+    font-weight: bold;
+    padding: 20px;
+    transition: all 0.5s ease-out;
+    text-decoration: none;
+    color: white;
+}
+
+/* Start the Journey Button Hover*/
+.goNextLink:hover{
+    opacity: .8;
+    color: rgb(199, 199, 199);
+    transition: all 0.5s ease-out;  
+}
+
+/* Subpart section height. */
+#subPartSection{
+    min-height: 81vh;
+}
+
+
+/* ---------------------------------*/
+/*  FOOTER   */
+
+footer{
+    background-color: #171717;
+    color: white   
+}
+/* No border on icon buttons.*/
+footer button{
+    border: none;
+}
+
+/* Footer icons size and default color. */
+footer i{
+    font-size: 24px;
+    transition: .25s ease-in-out;
+}
+
+/* Icons color Css for footer and Contact  */
+
+/* Specific Linkedin icon color when user hovers. */
+i.fa-linkedin:hover{
+    color:#0072B1;
+}
+/* Specific Github icon color when user hovers.*/
+i.fa-github:hover{
+    color:#333;
+}
+/* Specific Instagram color when user hovers.*/
+i.fa-instagram:hover{
+    color:#F56040;
+}
+/* Specific Mail icon color when user hovers.*/
+i.fa-envelope:hover{
+    color:#0085e3;
+}
+
+/* ---------------------------------*/
+
+/*  MEDIA OBJECT  */
+/*  An image with text */
+
+/* Media object container - flex */
+/* Font size calc => Responsive font size*/
+.media{
+    display: flex;
+    align-items: flex-start;
+    font-size: calc(.7rem + .5vw); 
+}
+/* Image part media */
+.media img{
+    width: 6em;
+    border-radius: 15%;
+}
+/* Body part media*/
+.media-body{
+    flex: 1;
+}
+
+
+/* CATEGORY BUTTONS */
+
+/* Container have margin top. */
+.categories-row{
+    margin-top: 20em;
+}
+
+/* Total width 90% of the viewport width - Top Container*/
+/* Margin auto for centering. */
+.categories{
+    width: 90vw;
+    margin: auto;
+    height: 100vh;
+}
+/* Category Card - Border*/
+.categories-card{
+    border: 4px solid rgb(21, 21, 21);
+}
+
+/* Category Card - Card Title*/
+.categories-card-title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+/* Category Card - Card Text*/
+.categories-card-text{
+    text-align: center;
+    font-size: .95rem;
+}
+
+/* Category Card - Card Image => A little border radius.*/
+.categories-card-img{
+    border-radius: .5em;
+    width: 100%;
+}
+
+/* Category Card - Button*/
+.categories-card-btn{
+    text-align: center;
+    width: 100%;
+    border: 2px solid #171717;
+    background-color: transparent;
+    color: #EDEDED;
+    font-weight: bold;
+    transition: all 0.4s ease-out;
+}
+
+/* Category Card - Button Hover */
+.categories-card-btn:hover{
+    background-color: #EDEDED;
+    color: #444444;
+    transition: all 0.4s ease-out;
+}
+
+/* Sport Cars - Specific Color*/
+#sport-card{
+    background-color: rgb(24, 67, 1);
+    transition: .3s;
+}
+#sport-card:hover{
+    background-color: rgb(43, 118, 3);
+    transition: .3s;
+}
+
+/* Suv Cars - Specific Color*/
+#suv-card{
+    background-color: rgb(12, 37, 80);
+    transition: .3s;
+}
+#suv-card:hover{
+    background-color: rgb(19, 54, 115);
+    transition: .3s;
+}
+
+/* Muscle Cars - Specific Color*/
+#muscle-card{
+    background-color: rgb(61, 75, 14);
+    transition: .3s;
+}
+#muscle-card:hover{
+    background-color: rgb(115, 141, 28);
+    transition: .3s;
+}
+
+/* Pickup Cars - Specific Color*/
+#pickup-card{
+    background-color: rgb(61, 4, 4);
+    transition: .3s;
+}
+#pickup-card:hover{
+    background-color: rgb(111, 7, 7);
+    transition: .3s;
+}
+
+/* TIMELINE - Taken From Web*/
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+}
+  
+.timeline .timeline-item {
+    position: relative;
+}
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+.timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
+/* Timeline Container Padding and Bg-color.*/
+#timeline-car{
+    padding-left: 8em;
+    padding-top: 2em;
+    background-color: #171717b8;
+}
+.timeline-info{
+    color: #edededde;
+    padding-left: 2em;
+    font-size: .9rem;
+}
+
+
+/* MODEL Info Card Container*/
+#model-info-card{
+    padding: 2em;
+    color: #EDEDED;
+    margin-top: 1.2em;
+    height: 68vh;
+    background-color: #171717e1;
+}
+/* Title part of model info*/
+#titlePart{
+    font-size: calc(1.1rem + .3w);
+    color: #EDEDED;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+  }
+/* Text part of model info*/
+#textPart{
+    color: #EDEDED;
+    font-size: calc(.8rem + .3vw);
+  }
+
+/* Car Model Card -Container*/
+.car-model-card{
+    margin-top: 1.2em;
+    height: 32.5vh;
+    background-color: #171717d7;
+    color: #DA0037;
+}
+/* Car Model Card - Title*/
+.model-card-title{
+    padding-top: 1em;
+    height: 5.6em;
+    padding-bottom: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .12em;
+    line-height: 1.5em;
+    font-weight: lighter;
+    border: 1px solid #EDEDED;
+}
+
+/* Car Model Card - Discover Button*/
+.model-card-btn{
+    background-color: #EDEDED;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    
+}
+
+/* Car Model Card - Discover Button Hover*/
+.model-card-btn:hover{
+    color: #EDEDED;
+    background-color: #464646;
+    transition: .3s ease-in;
+}
+/* Car Model Card Body => Flex with Column Direction For easy alignment.*/
+.model-card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .3s ease-out;
+}
+
+
+/* Navigation Elements Header*/
+.nav-elem{
+    color: #ededed84;
+    transition: .2s ease-in;
+    font-size: .9rem;
+    width: 2em;
+}
+/* Navigation Elements Hover*/
+.nav-elem:hover{
+    color: #ededed;
+    transition: .2s ease-in;
+}
+/* Navigation Elements Container*/
+.nav-container{
+    text-align: center;
+    padding-top: .3em;
+}
+
+
+/* About Section => About Company  => Media Element CSS*/
+#about-media{
+    background-color: #171717ee;
+    padding: 1em;
+    width: 90vw;
+    margin: auto;
+    border-radius: 2%;
+    border: 2px solid #EDEDED;
+    display: flex;
+}
+/* Media - image*/
+#about-media > .media-img{
+    width: calc(10em + 1vw);
+    align-self:  center;
+}
+
+/* Contact Section Container */
+#contactSection{
+    width: 90vw;
+    margin: auto;
+    background-color: #171717c0;
+    padding: 1em 4em;
+}
+
+/* Contact Section - Description*/
+#contact-description{
+    font-size: 1rem;
+    padding: 0 2em;
+}
+
+/* Contact Section - Title => Contact*/
+.contact-bigtitle{
+    font-size: 3rem;
+    text-align: center;
+}
+/* Contact Section - Title => With Us*/
+.contact-smalltitle{
+    font-size: 2rem;
+    letter-spacing: .42em;
+    margin-left: .2em;
+    margin-top: -.2em;
+    text-align: center;
+}
+/* Contact Section - Programmer Title*/
+.programmer-title{
+    font-weight: bold;
+    text-align: center;
+}
+/* Contact Section - Programmer Description*/
+.programmer-description{
+    font-size: .8rem;
+}
+/* Contact Section - Programmer Social Media Icons*/
+#contactSection i{
+    font-size: 1.5rem;
+    transition: .25s ease-in-out;
+}
+
+
+/* Specific Car Model Image => Border Radius*/
+#img-car-model{
+    border-radius: 2em;
+}
+
+
+/* PROGRESS BAR */
+.progress-with-text{
+    margin-top: .25em;
+}
+/* Progress Bar - Container */
+.progress-bar{
+    background-color: #1a4ab0;
+    width: 75%;
+    font-size: .8rem;
+    font-weight: bold;
+}
+/* Prograss Bar Titles*/
+.progress-title{
+    font-size: 1.15rem;
+}
+
+/* Progress Bar Car Model Name*/
+.model-name{
+    letter-spacing: .1em;
+    font-size: calc(.7rem + 1vw);
+}
+
+/* ORDER Button after Progress Bar*/
+#order-btn{
+    margin-top: 1em;
+    background-color: rgba(0, 128, 0, 0.469);
+    border: 2px solid green;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Order Button Hover*/
+#order-btn:hover{
+    background-color: green;
+    border: 2px solid green;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Car Model Image Container*/
+#model-image-card{
+    max-height: 68vh;
+    margin-top: 1.2em;
+    height: 100%;
+    padding: 2em 1em;
+    background-color: #171717b1;
+}
+
+/* Order Link no Border*/
+#orderLink{
+    border: none;
+}

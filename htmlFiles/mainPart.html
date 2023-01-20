@@ -1,0 +1,121 @@
+<!-- Button for navigating the user to the next section of main part. -->
+<!-- It is centered vertically and horizontally with flex. -->
+<section class="d-flex justify-content-center align-items-center ">
+    <a href="#timeline-car" class="goNextLink">Start The Journey!</a>
+</section>
+
+<!-- TIMELINE SECTION -->
+<!-- There are 4 timeline items. -->
+<section id="timeline-car">
+    
+    <h1>Car History</h1>
+        <ul class="timeline">
+            <!-- Timeline item. -->
+            <!-- Title and information about specific event occured in car history. -->
+            <li class="timeline-item mb-5">
+                <h5 class="fw-bold">First car is invented</h5>
+                <p class="timeline-info mb-2 fw-bold">15/02/1787</p>
+                <p class="timeline-info">
+                Henri ford founds the first car.
+                </p>
+            </li>
+            <!-- Timeline item. -->
+            <!-- Title and information about specific event occured in car history. -->
+            <li class="timeline-item mb-5">
+                <h5 class="fw-bold">First car is patented</h5>
+                <p class="timeline-info mb-2 fw-bold">29/01/1886</p>
+                <p class="timeline-info">
+                Carl Benz patents world's first automobile
+                </p>
+            </li>
+            <!-- Timeline item. -->
+            <!-- Title and information about specific event occured in car history. -->
+            <li class="timeline-item mb-5">
+                <h5 class="fw-bold">First hybrid car is showed</h5>
+                <p class="timeline-info mb-2 fw-bold">15/04/1900</p>
+                <p class="timeline-info">
+                Porsche shows first Hybrid Car
+                </p>
+            </li>
+            <!-- Timeline item. -->
+            <!-- Title and information about specific event occured in car history. -->
+            <li class="timeline-item mb-5">
+                <h5 class="fw-bold">First carbon-fiber race car is created</h5>
+                <p class="timeline-info mb-2 fw-bold">05/03/1981</p>
+                <p class="timeline-info">
+                McLaren creates first carbon-fiber race car
+                </p>
+            </li>
+        </ul>
+</section>
+
+
+
+<!-- CATEGORIES SECTION -->
+<!-- There are 4 categories. All of the categories are linked with javascript. -->
+<!-- There 4 buttons for each category. This section is responsive. 2-2 for Tablet size. 1-1-1-1 for Mobile size.  -->
+
+<!-- Bootstrap container fluid => Full width container, spanning the entire width of the viewport.-->
+<section class="categories container-fluid">
+    <!-- Bootstrap Row -->
+    <div class="row categories-row">
+        <!-- Category Item -->
+        <!-- Name of category + A text like slogan + Button for navigation. -->
+        <div class="card categories-card col-lg-3 col-md-6 col-12 p-2" id="suv-card">
+            <div class="card-body">
+                <h5 class="categories-card-title">SUV</h5>
+                <p class="categories-card-text">Secure yourself.</p>
+                <button class="btn categories-card-btn carButtons" id="suvButton">Discover</button>
+            </div>
+        </div>
+        <!-- Category Item -->
+        <!-- Name of category + A text like slogan + Button for navigation. -->
+        <div class="card categories-card col-lg-3 col-md-6 col-12 p-2"  id="muscle-card">
+            <div class="card-body">
+                <h5 class="categories-card-title">Muscle</h5>
+                <p class="categories-card-text">Feel the power.</p>
+                <button class="btn categories-card-btn carButtons" id="muscleButton">Discover</button>
+            </div>
+        </div>
+        <!-- Category Item -->
+        <!-- Name of category + A text like slogan + Button for navigation. -->
+        <div class="card categories-card col-lg-3 col-md-6 col-12 p-2" id="pickup-card">
+            <div class="card-body">
+                <h5 class="categories-card-title">Pickup</h5>
+                <p class="categories-card-text">Carry everything.</p>
+                <button class="btn categories-card-btn carButtons" id="pickUpButton">Discover</button>
+            </div>
+        </div>
+        <!-- Category Item -->
+        <!-- Name of category + A text like slogan + Button for navigation. -->
+        <div class="card categories-card col-lg-3 col-md-6 col-12 p-2" id="sport-card">
+            <div class="card-body">
+                <h5 class="categories-card-title">Sport</h5>
+                <p class="categories-card-text">Taste the speed.</p>
+                <button class="btn categories-card-btn carButtons" id="sportButton">Discover</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ABOUT SECTION -->
+<!-- Information about the company. Logo and Text -->
+
+<!-- Bootstrap container fluid => Full width container, spanning the entire width of the viewport.-->
+<section class="container-fluid" id="about" >
+    <!-- Bootstrap Row -->
+    <div class="row">
+        <div class="media col-12" id="about-media">
+            <!-- Logo Cartube -->
+            <img class="me-4 media-img" src="/images/carTube-Logo.png" alt="Cartube Logo">
+            <!-- Text about. -->
+            <div class="media-body">
+                <h1>About &copy; CarTube </h1>
+                Founded by Ozgur Bayrasa and Mahmut Celik in 1986. 
+                It provides several types of cars to all of the users around the world.
+                Customer happines is guarenteed.
+            </div>
+        </div>
+    </div>
+</section>
