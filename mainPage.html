@@ -1,0 +1,191 @@
+<!-- BEGINNING OF HTML DOCUMENT -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARTUBE</title>
+
+    
+
+    <!-- IMPLEMENTATION OF BOOTSTRAP PARTS -->
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+
+
+    <!-- IMPLEMENTATION OF OUR CSS AND JS CODE -->
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script src="js/script.js"></script>
+
+    <script src="https://kit.fontawesome.com/7a8330feef.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <!-- PRELOADER START -->
+    <div class="loading-window">
+        <div class="car">
+            <div class="strike"></div>
+            <div class="strike strike2"></div>
+            <div class="strike strike3"></div>
+            <div class="strike strike4"></div>
+            <div class="strike strike5"></div>
+            <div class="car-detail spoiler"></div>
+            <div class="car-detail back"></div>
+            <div class="car-detail center"></div>
+            <div class="car-detail center1"></div>
+            <div class="car-detail front"></div>
+            <div class="car-detail wheel"></div>
+            <div class="car-detail wheel wheel2"></div>
+        </div>    
+    </div>
+    
+    <!-- PRELOADER END -->
+
+    <!-- HEADER START -->
+    
+    <header class="elements">
+        <!-- Bootstrap container fluid => Full width container, spanning the entire width of the viewport.-->
+        <div class="container-fluid">
+            <!-- Bootstrap Row -->
+            <!-- This div forms our navbar. With a logo of our brand and navigation elements. It is responsive. -->
+            <div class="row">
+                    
+                    <!-- LOGO of our brand, in a button. It navigates the user to the home page with Javascript. -->
+                    <!-- Logo is centered default, but in pc size it is aligned left. -->
+                    <div class="col-12 col-lg-5  text-center text-lg-start ">
+                        <button id="logoButton">
+                            <img src="images/carTube-Logo.png" alt=""  height="50">
+                        </button>
+                    </div>
+                    
+                    <!-- Navigation Elements in Header. There are 6 elements. Bootstrap classes makes navigation elements responsive -->
+                    <div class="col-12  col-md-6 col-lg-1 nav-container">
+                        <!-- Navigation Element -->
+                        <a class="headerFooterButtons nav-elem" id="headerHome" href="#">Home </a>
+                    </div>
+                    
+                    <div class="col-12  col-md-6 col-lg-1 nav-container">
+                        <!-- Navigation Element -->
+                        <a class="headerFooterButtons nav-elem" id="headerSuv" href="#">SUV </a>
+                    </div>
+                    
+                    <div class="col-12  col-md-6 col-lg-1 nav-container">
+                        <!-- Navigation Element -->
+                        <a class="headerFooterButtons nav-elem" id="headerPickUp" href="#">PICKUP </a>
+                    </div>
+                    
+                    <div class="col-12  col-md-6 col-lg-1 nav-container">
+                        <!-- Navigation Element -->
+                        <a class="headerFooterButtons nav-elem" id="headerSport" href="#">SPORT </a>
+                    </div>
+                    
+                    <div class="col-12  col-md-6 col-lg-1 nav-container">
+                        <!-- Navigation Element -->
+                        <a class="headerFooterButtons nav-elem" id="headerMuscle" href="#">MUSCLE </a>
+                    </div>
+                    
+                    <div class="col-12  col-md-6 col-lg-1 nav-container">
+                        <!-- Navigation Element -->
+                        <a class="headerFooterButtons nav-elem" id="headerContact" href="#">CONTACT</a>
+                    </div>
+                   
+            </div>
+        </div>
+    </header>
+
+      <!-- HEADER END -->
+
+    <!-- This is the main part, it is used efficiently with Javascript. -->
+    <main id="mainTagLoad" class="elements">
+    
+    </main>
+    
+
+    <!-- FOOTER START -->
+    <footer class="elements" >
+        <!-- Bootstrap container fluid => Full width container, spanning the entire width of the viewport.-->
+        <div class="container-fluid ">
+            <!-- Bootstrap Row -> 1st Row in footer.-->
+            <!-- In first row there is a text centered with bootstrap class. -->
+            <div class="row"> 
+                <div class="text-center">
+                        &copy CarTube 2022 Designed by 
+                </div>
+            </div>
+            <!-- Bootstrap Row -> 2nd Row in footer.-->
+            <!-- In second row there are two texts centered. => Designers of the website. -->
+            <div class="row"> 
+                <!-- 6/12 of a row. -->
+                <div class="col-6 text-center">
+                        Mahmut CELIK
+                </div>
+                 <!-- 6/12 of a row. -->
+                <div class="col-6 text-center">
+                        Ozgur BAYRASA
+                </div>
+            </div>
+            <!-- Bootstrap Row => 3rd Row in Footer -->
+            <!-- Third row contains some icons of social media brands. They are linked to the social media accounts of the designers. Target _blank for opening it on a new page. -->
+            <!-- Icons are taken from fontawesome. -->
+            <div class="row">
+                <!-- 6/12 of a row. -->
+                <div class="col-6 text-center ">
+                    <!-- Github Icon Link -->
+                    <button type="button" class="btn btn-default">
+                        <a href="https://github.com/mahmutcelik0" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </button>
+                    <!-- Instagram Icon Link -->
+                    <button type="button" class="btn btn-default">
+                        <a href="https://www.instagram.com/mahmutcelik0/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </button>
+                    <!-- LinkedIn Icon Link -->
+                    <button type="button" class="btn btn-default">
+                        <a href="https://www.linkedin.com/in/mahmut-%C3%A7elik-198a9a200/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </button>
+                </div>
+
+                <div class="col-6 text-center ">
+                    <!-- Github Icon Link -->
+                    <button type="button" class="btn btn-default">
+                        <a href="https://github.com/ozgurbayrasa" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </button>
+                    <!-- Instagram Icon Link -->
+                    <button type="button" class="btn btn-default">
+                        <a href="https://www.instagram.com/ozgurbayrasa/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </button>
+                    <!-- LinkedIn Icon Link -->
+                    <button type="button" class="btn btn-default">
+                        <a href="https://www.linkedin.com/in/%C3%B6zg%C3%BCr-bayra%C5%9Fa-1130101a7/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+
+     
+    <!-- IMPLEMENTATION OF JAVASCRIPT -->
+    <script src="js/jquery-3.6.1.min.map"></script>
+    <script src="js/ajax-utils.js"></script>
+</body>
+</html>
+
+<!-- END OF HTML DOCUMENT -->

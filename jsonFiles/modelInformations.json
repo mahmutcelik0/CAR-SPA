@@ -1,0 +1,129 @@
+
+{
+    "suvButton":{
+        "model":"SUV",
+        "imageAddress":"images/suvImage",
+        "backgroundImageAddress":"images/suvBackgroundImage",
+        "text" : "SUVs give their owners flexibility in transporting people and cargo. With all the space in an SUV, owners can pick up groceries, carry luggage for road trips, haul the equipment for sports and activities, and still have enough seating for a larger group as an SUV often has seven seats." ,
+        "firstModel":"Honda CR-V",
+        "secondModel":"Range Rover",
+        "thirdModel":"BMW X2",
+        "fourthModel":"Hyundai Tucson Hybrid",
+        "firstModelButton":{
+            "images":["images/hondaCRV-1","images/hondaCRV-2","images/hondaCRV-3"],
+            "ratingScore":["8.2","7.3","8.3","7.6","8.9"],
+            "link":"https://www.honda.com.tr/otomobil/modeller/honda-cr-v"
+        },
+        "secondModelButton":{
+            "images":["images/landRover-1","images/landRover-2","images/landRover-3"],
+            "ratingScore":["9.4","8.2","8.1","7.9","8.5"],
+            "link":"https://www.landrover.com.tr/?utm_source=google&utm_medium=paidsearch&utm_campaign=landrover_ao&gclid=CjwKCAiAqaWdBhAvEiwAGAQltkmdLdulaMECJIgbvyNyTN7I9fWEgGlSUzxPpvnaAOHqrlyxOoRWuRoCIIoQAvD_BwE"
+        },
+        "thirdModelButton":{
+            "images":["images/bmwx2-1","images/bmwx2-2","images/bmwx2-3"],
+            "ratingScore":["7.7","8.1","7.4","8.3","6.9"],
+            "link":"https://www.bmw.com.tr/tr/all-models/x-serisi/X2/2020/bmw-x2-bir-bakista.html"
+        },
+        "fourthModelButton":{
+            "images":["images/tuscon-1","images/tuscon-2","images/tuscon-3"],
+            "ratingScore":["9.1","8.3","8.1","7.8","7.2"],
+            "link":"https://www.hyundai.com/tr/tr/arac-modelleri/tucson-hibrit/one-cikanlar"
+        }
+    },
+
+    
+    "pickUpButton":{
+        "model":"Pickup",
+        "imageAddress":"images/pickUpImage",
+        "backgroundImageAddress":"images/pickUpBackgroundImage",
+        "text" : "A pickup is a light-duty vehicle that has an enclosed cabin, and a back end made up of a cargo bed that is enclosed by three low walls with no roof (this cargo bed back end sometimes consists of a tailgate and removable covering).?" ,
+        "firstModel":"Ford F-150",
+        "secondModel":"Hyundai Santa Cruz",
+        "thirdModel":"Jeep Gladiator",
+        "fourthModel":"Nissan Frontier",
+        "firstModelButton":{
+            "images":["images/fordf150-1","images/fordf150-2","images/fordf150-3"],
+            "ratingScore":["9.7","8.6","8.6","7.7","8.3"],
+            "link":"https://www.ford.com/trucks/f150/"
+        },
+        "secondModelButton":{
+            "images":["images/hyundaiSantaCruz-1","images/hyundaiSantaCruz-2","images/hyundaiSantaCruz-3"],
+            "ratingScore":["8.7","7.8","6.7","7.5","8.4"],
+            "link":"https://www.hyundaiusa.com/us/en/vehicles/santa-cruz"
+        },
+        "thirdModelButton":{
+            "images":["images/jeepGladiator-1","images/jeepGladiator-2","images/jeepGladiator-3"],
+            "ratingScore":["8.7","7.3","7.7","6.5","7.6"],
+            "link":"https://www.jeep.com/gladiator.html"
+        },
+        "fourthModelButton":{
+            "images":["images/nissanFrontier-1","images/nissanFrontier-2","images/nissanFrontier-3"],
+            "ratingScore":["7.5","7.2","8.0","8.2","6.9"],
+            "link":"https://www.nissanusa.com/vehicles/trucks/frontier.html"
+        }
+    },
+    
+    
+    "sportButton":{
+        "model":"Sport",
+        "imageAddress":"images/sportImage",
+        "backgroundImageAddress":"images/sportBackgroundImage",
+        "text" : "A sports car is a car designed with an emphasis on dynamic performance, such as handling, acceleration, top speed, the thrill of driving and racing capability. Most cars look still and can blend into the background when they’re parked. But not sports cars. Sports cars are sleek and eye-catching. Their designs always get people doing a double-take to check them out " ,
+        "firstModel":"Chevrolet Corvette",
+        "secondModel":"LAMBORGHINI HURACAN EVO",
+        "thirdModel":"BUGATTI CHIRON EDITION NOIRE",
+        "fourthModel":"AUDI R8",
+        "firstModelButton":{
+            "images":["images/chervoletCorvette-1","images/chervoletCorvette-2","images/chervoletCorvette-3"],
+            "ratingScore":["8.5","8.4","7.6","7.3","8.4"],
+            "link":"https://www.chevrolet.com/upcoming-vehicles/2022-corvette"
+        },
+        "secondModelButton":{
+            "images":["images/lamborghiniHuracanEvo-1","images/lamborghiniHuracanEvo-2","images/lamborghiniHuracanEvo-3"],
+            "ratingScore":["8.9","9.6","8.2","8.4","8.2"],
+            "link":"https://www.lamborghini.com/en-en/models/huracan"
+        },
+        "thirdModelButton":{
+            "images":["images/bugattiChironEdition-1","images/bugattiChironEdition-2","images/bugattiChironEdition-3"],
+            "ratingScore":["7.7","8.9","8.3","7.7","8.8"],
+            "link":"https://www.bugatti.com/models/chiron-models/chiron-edition-noire/"
+        },
+        "fourthModelButton":{
+            "images":["images/audiR8-1","images/audiR8-2","images/audiR8-3"],
+            "ratingScore":["9.3","8.6","8.4","7.4","8.3"],
+            "link":"https://www.audiusa.com/us/web/en/models/r8/r8-coupe/2023/overview.html"
+        }
+    },
+    
+    
+    "muscleButton":{
+        "model":"Muscle",
+        "imageAddress":"images/muscleImage",
+        "backgroundImageAddress":"images/muscleBackgroundImage",
+        "text" : "Muscle car, by the strictest definition, is an intermediate-sized, high-performance oriented model, powered by a large V8 engine, at an affordable price. Most of these models were based on “regular” production vehicles. These vehicles are generally not considered muscle cars, even when equipped with large V8s. If there was a high-performance version available, it gets the credit, and not the vehicle that it was based on." ,
+        "firstModel":"2015 Dodge Challenger III",
+        "secondModel":"FORD Mustang Shelby GT500",
+        "thirdModel":"1970 Chevrolet Chevelle",
+        "fourthModel":"1971 Plymouth Hemi Cuda",
+        "firstModelButton":{
+            "images":["images/dodgeChallenger-1","images/dodgeChallenger-2","images/dodgeChallenger-3"],
+            "ratingScore":["8.4","7.9","7.1","8.2","8.5"],
+            "link":"https://www.auto-data.net/en/dodge-challenger-iii-facelift-2014-srt-hellcat-6.2-hemi-v8-707hp-32897"
+        },
+        "secondModelButton":{
+            "images":["images/mustangShelby-1","images/mustangShelby-2","images/mustangShelby-3"],
+            "ratingScore":["8.8","8.2","7.8","8.8","8.8"],
+            "link":"https://www.ford.com/cars/mustang/models/shelby-gt500/"
+        },
+        "thirdModelButton":{
+            "images":["images/chervoletChevelle-1","images/chervoletChevelle-2","images/chervoletChevelle-3"],
+            "ratingScore":["7.3","8.9","8.4","7.9","6.8"],
+            "link":"https://www.arabateknikbilgi.com/klasik-otomobiller/1970-chevrolet-chevelle-ss-454-sport-coupe/"
+        },
+        "fourthModelButton":{
+            "images":["images/plymouthHemiCuda-1","images/plymouthHemiCuda-2","images/plymouthHemiCuda-3"],
+            "ratingScore":["8.1","8.5","9.1","8.3","9.3"],
+            "link":"https://www.audrainautomuseum.org/american-muscle/1971-plymouth-hemi-cuda"
+        }
+    }
+}
